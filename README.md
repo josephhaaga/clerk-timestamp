@@ -5,8 +5,10 @@ A [clerk](https://github.com/josephhaaga/clerk) extension to append timestamps t
 
 ## Setup
 
+Install `clerk-timestamp` in the `venv` that `clerk` is installed in
+
 ```
-$ pipx install josephhaaga-clerk-timestamp
+$ pipx runpip josephhaaga-clerk install josephhaaga-clerk-timestamp
 ```
 
 Then, in your `clerk.conf` config file:
