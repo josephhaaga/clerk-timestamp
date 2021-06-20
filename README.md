@@ -16,5 +16,7 @@ Then, in your `clerk.conf` config file:
 
 [hooks]
 JOURNAL_OPENED =
-    clerk.extensions.timestamp
+    timestamp
 ```
+
+For more information, see `clerk` [hooks documentation](https://github.com/josephhaaga/clerk#hooks)
