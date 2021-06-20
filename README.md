@@ -1,11 +1,15 @@
 # clerk-timestamp
 
-A [clerk] extension to append timestamps to your journal
+A [clerk](https://github.com/josephhaaga/clerk) extension to append timestamps to your journal
 
 
 ## Setup
 
-In your `clerk.conf` config file
+```
+$ pipx install josephhaaga-clerk-timestamp
+```
+
+Then, in your `clerk.conf` config file:
 
 ```
 ...
