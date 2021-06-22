@@ -15,7 +15,7 @@ def append_timestamp(
         if not "format" in extension_config
         else extension_config["format"]
     )
-    prefix = "\n[" if not prefix in extension_config else extension_config["prefix"]
-    suffix = "] " if not suffix in extension_config else extension_config["suffix"]
+    prefix = "\n[" if not 'prefix' in extension_config else extension_config["prefix"]
+    suffix = "] " if not 'suffix' in extension_config else extension_config["suffix"]
     now = get_timestamp(stamp_format)
     return file_contents + [f"{prefix}{now}{suffix}"]
