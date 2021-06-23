@@ -1,4 +1,6 @@
 # clerk-timestamp
+---
+![Interrogate docstring coverage](./docs/_static/interrogate-badge.svg)
 
 A [clerk](https://github.com/josephhaaga/clerk) extension to append timestamps to your journal
 
@@ -28,7 +30,7 @@ For more information, see `clerk` [hooks documentation](https://github.com/josep
 
 As of v0.0.3, `clerk-timestamp` supports the following configuration options.
 
-* `format` specifies your timestamp format (used in `datetime.strftime`) 
+* `format` specifies your timestamp format (used in `datetime.strftime`)
 * `prefix` specifies the timestamp prefix
 * `suffix` specifies the timestamp suffix
 
@@ -45,7 +47,7 @@ JOURNAL_OPENED=
 format=%%Y-%%m-%%d %%I:%%M:%%S %%p
 prefix=
     [
-suffix=] 
+suffix=]
 ```
 
 which results in a newline character, and square brackets around the timestamp in our specified `format` every time a journal is opened
