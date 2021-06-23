@@ -1,5 +1,5 @@
 # clerk-timestamp
----
+
 ![Interrogate docstring coverage](./docs/_static/interrogate-badge.svg)
 [![pre-commit.ci status](https://results.pre-commit.ci/badge/github/josephhaaga/clerk-timestamp/main.svg)](https://results.pre-commit.ci/latest/github/josephhaaga/clerk-timestamp/main)
 
