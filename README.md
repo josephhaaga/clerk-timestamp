@@ -14,7 +14,7 @@ Install `clerk-timestamp` in the `venv` that `clerk` is installed in
 $ pipx runpip josephhaaga-clerk install josephhaaga-clerk-timestamp
 ```
 
-Then, in your `clerk.conf` config file:
+Then, in your `.clerkrc` config file:
 
 ```
 ...
@@ -35,7 +35,7 @@ As of v0.0.3, `clerk-timestamp` supports the following configuration options.
 * `prefix` specifies the timestamp prefix
 * `suffix` specifies the timestamp suffix
 
-Add them to your `clerk.conf` config file, as show in this example:
+Add them to your `.clerkrc` config file, as show in this example:
 ```
 [DEFAULT]
 ...
